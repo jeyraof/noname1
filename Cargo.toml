@@ -6,3 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+comrak = "0.16"
+glob = "0.3.1"
+serde = { version = "1.0.152", features = [ "derive" ] }
+serde_yaml = "0.9.17"
+thiserror = "1.0.38"
